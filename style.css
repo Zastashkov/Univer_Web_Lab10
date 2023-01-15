@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-size: 120%;
+    color: white;
+    font-family: "Roboto Light", sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: #fff;
+    height: 175px;
+    gap: 20px;
+}
+
+header .logo {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    /*top: 45px;*/
+    /*left: 50px;*/
+}
+
+header .logo img {
+    width: 150px;
+    justify-content: left;
+}
+
+header h1, header h2 {
+    text-align: center;
+}
+
+header a:link, header a:visited, header a:hover, header a:active {
+    text-decoration: none;
+    color: white;
+}
+
+/*footer {*/
+/*    font-size: 20px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    gap: 10px;*/
+/*    flex-wrap: wrap;*/
+/*    !*height: 100px;*!*/
+/*}*/
+
+main {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+.block_layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.block_layout div {
+    padding: 5px;
+    border: 2px solid red;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2px;
+}
+
+main .text-analysis {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main .text-block {
+    margin: 16px;
+    word-wrap: normal;
+    /*    курсив текста*/
+    font-style: italic;
+    /*    цвет текста не яркий*/
+    color: #ffffff;
+/*    flex*/
+
+}
+main .words-block  {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+main .word-block {
+    margin: 2px;
+/*    add border*/
+    border: 1px solid #ffffff;
+    padding: 2px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0;
+}
+
+.submit {
+    width: 15%;
+}
+
+textarea {
+    position: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
